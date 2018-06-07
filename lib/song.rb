@@ -14,4 +14,9 @@ class Song
     @@genres << self.genre
   end
 
+  def count
+    self.name
+    return
+
+  end
 end
