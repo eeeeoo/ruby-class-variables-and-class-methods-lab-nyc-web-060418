@@ -16,7 +16,8 @@ class Song
   end
 
   def count
-    @@count << self.name
+    count_songs = []
+    count_songs << self.name
     binding.pry
     @@count.size
   end
