@@ -35,9 +35,10 @@ class Song
     binding.pry
     # @@genres.each do |genre|
     #   key = genre.uniq
-    #   genre_hash[:key] = genre.length
+    #   genre_hash[:key] = @@genres.count(genre)
     #   binding.pry
+
     # end
-    genre_hash
+    @genre_hash
   end
 end
