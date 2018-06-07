@@ -20,6 +20,7 @@ class Song
     count_songs = []
     count_songs << self.name
     @@count += count_songs.length
+    binding.pry
     return @@count
   end
 
