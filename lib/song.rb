@@ -23,7 +23,7 @@ class Song
     #     count_songs << song
         @@count += count_songs.length
     # end
-    @@count += self.name.count
+    @@count 
   end
 
   # def artists
