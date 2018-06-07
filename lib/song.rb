@@ -32,18 +32,19 @@ class Song
   end
 
   def self.genre_count
-    @@genres.each do |genre|
-      value = 0
-      if @@genres.count(genre) > 1
-        value += 1
-        @genre_hash[:genre] = value
-      else
-        @genre_hash[:genre] = @@genres.count(genre)
-      end
-    end
+    # @@genres.each do |genre|
+    #   value = 0
+    #   if @@genres.count(genre) > 1
+    #     value += 1
+    #     @genre_hash[:genre] = value
+    #   else
+    #     @genre_hash[:genre] = @@genres.count(genre)
+    #   end
+    # end
+    @@genres
     @genre_hash
   end
-  # 
+  #
   # def self.artist_count
   #
   # end
