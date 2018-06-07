@@ -18,7 +18,7 @@ class Song
   def count
     @@count << self.name
     binding.pry
-    return @@count.size
+    @@count.size
   end
 
 end
