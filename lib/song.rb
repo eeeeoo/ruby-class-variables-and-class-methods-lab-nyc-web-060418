@@ -19,7 +19,6 @@ class Song
   def count
     count_songs = []
     count_songs << self.name
-    binding.pry
     # self.name.each do |song|
     #     count_songs << song
     #     @@count += count_songs.length
