@@ -21,11 +21,11 @@ class Song
   def count
     count_songs = []
     count_songs << self.name
-    # self.name.each do |song|
-    #     count_songs << song
-    #     @@count += count_songs.length
-    # end
-    # return @@count
+    self.name.each do |song|
+        count_songs << song
+        @@count += count_songs.length
+    end
+    @@count
   end
 
   # def artists
