@@ -33,6 +33,8 @@ class Song
     @@genres.each do |genre|
       genre_hash[:genre.uniq]
       genre_hash[:genre.length]
-    {@@genres => @@genres.length}
+    end
+    genre_hash
+    # {@@genres => @@genres.length}
   end
 end
