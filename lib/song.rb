@@ -12,7 +12,6 @@ class Song
     @genre = genre
     @@artists << self.artist
     @@genre << self.genre
-
   end
 
 end
