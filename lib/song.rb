@@ -17,12 +17,12 @@ class Song
   end
 
   def count
-    count_songs = []
-    count_songs << self.name
-    self.name.map do |song|
-        count_songs << song
-        @@count += count_songs.count
-    end
+    # count_songs = []
+    # count_songs << self.name
+    # self.name.map do |song|
+    #     count_songs << song
+    #     @@count += count_songs.count
+    # end
     @@count
   end
 
