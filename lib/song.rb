@@ -32,8 +32,10 @@ class Song
 
   def self.genre_count
     @@genres.each do |genre|
-      if genre == genre
-      @genre_hash[:genre] = @@genres.count(genre)
+      key = genre.uniq
+      if genre == key
+        @genre_hash[:genre] = @@genres.count(genre)
+      end
     end
     @genre_hash
   end
