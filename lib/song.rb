@@ -41,6 +41,7 @@ class Song
     #     @genre_hash[:genre] = @@genres.count(genre)
     #   end
     # end
+    binding.pry
     @@genres
     @genre_hash
   end
