@@ -19,7 +19,7 @@ class Song
   def count
     count_songs = []
     count_songs << self.name
-    @@count = count_songs.length
+    @@count += count_songs.length
     return @@count
   end
 
