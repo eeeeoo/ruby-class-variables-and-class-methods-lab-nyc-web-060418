@@ -32,8 +32,11 @@ class Song
 
   def self.genre_count
     @@genres.each do |genre|
-      key = genre.uniq
-      if genre == key
+      value = 0
+      if @@genres.count(genre) > 1
+        value += 1
+        @genre_hash[:genre] = value
+      else
         @genre_hash[:genre] = @@genres.count(genre)
       end
     end
@@ -41,5 +44,5 @@ class Song
   end
 
 
-  
+
 end
