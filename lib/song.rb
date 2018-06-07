@@ -14,8 +14,8 @@ class Song
     @@artists << self.artist
     @@genres << self.genre
     @@count += 1
-    genre_hash = {}
-    artist_hash = {}
+    @genre_hash = {}
+    @artist_hash = {}
 
   end
 
@@ -32,7 +32,7 @@ class Song
   end
 
   def self.genre_count
-    # @@genres.each do |genre|
+    # @@genres.find do |genre|
     #   value = 0
     #   if @@genres.count(genre) > 1
     #     value += 1
