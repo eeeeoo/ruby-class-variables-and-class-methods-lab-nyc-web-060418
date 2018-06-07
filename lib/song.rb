@@ -32,8 +32,7 @@ class Song
 
   def self.genre_count
     @@genres.each do |genre|
-      genre_hash[:genre] = genre
-      genre_hash[:genre.length] = genre.length
+      genre_hash[:genre] = genre.length
       binding.pry
     end
     genre_hash
