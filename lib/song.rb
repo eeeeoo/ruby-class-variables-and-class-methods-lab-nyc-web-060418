@@ -31,11 +31,12 @@ class Song
   end
 
   def self.genre_count
-    @@genres.each do |genre|
-      key = genre.uniq
-      genre_hash[:key] = genre.length
-      binding.pry
-    end
+    @@genres
+    # @@genres.each do |genre|
+    #   key = genre.uniq
+    #   genre_hash[:key] = genre.length
+    #   binding.pry
+    # end
     genre_hash
   end
 end
