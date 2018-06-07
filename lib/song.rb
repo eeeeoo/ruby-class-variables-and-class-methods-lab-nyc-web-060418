@@ -18,7 +18,7 @@ class Song
   end
 
   def count
-    self.name
+    @@count << self.name
   end
 
 end
