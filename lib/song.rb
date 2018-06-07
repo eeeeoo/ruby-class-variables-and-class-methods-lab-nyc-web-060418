@@ -38,7 +38,7 @@ class Song
     #     value += 1
     #     @genre_hash[:genre] = value
     #   else
-    #     @genre_hash[:genre] = @@genres.count(genre)
+    #     @genre_hash[:genre] = @genre.count
     #   end
     # end
     binding.pry
