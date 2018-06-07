@@ -24,8 +24,8 @@ class Song
     # return @@count
   end
 
-  def artists
-
-  end
+  # def artists
+  #
+  # end
 
 end
