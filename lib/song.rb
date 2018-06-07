@@ -17,11 +17,11 @@ class Song
   end
 
   def count
-    count_songs = []
-    count_songs << self.name
-    @@count += count_songs.length
+    # count_songs = []
+    # count_songs << self.name
+    # @@count += count_songs.length
     binding.pry
-    return @@count
+    # return @@count
   end
 
   def artists
