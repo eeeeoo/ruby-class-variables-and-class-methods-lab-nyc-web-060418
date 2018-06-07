@@ -16,14 +16,8 @@ class Song
     @@count += 1
   end
 
-  def count
-    count_songs = []
-    count_songs << self.name
-    # self.name.map do |song|
-    #     count_songs << song
-        @@count += count_songs.length
-    # end
-    @@count 
+  def self.count
+    @@count
   end
 
   # def artists
