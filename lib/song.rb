@@ -34,6 +34,7 @@ class Song
     @@genres.each do |genre|
       genre_hash[:genre]
       genre_hash[:genre.length]
+      binding.pry
     end
     genre_hash
     # {@@genres => @@genres.length}
