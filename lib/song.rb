@@ -14,8 +14,6 @@ class Song
     @@artists << self.artist
     @@genres << self.genre
     @@count += 1
-    binding.pry
-
   end
 
   def count
