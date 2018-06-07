@@ -10,6 +10,7 @@ class Song
     @artist = artist
     @genre = genre
     @@artists << self.artist
+    
   end
 
 end
