@@ -17,6 +17,7 @@ class Song
 
   def count
     @@count << self.name
+
     return @@count.size
   end
 
