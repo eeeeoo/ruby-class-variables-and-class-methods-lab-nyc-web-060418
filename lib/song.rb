@@ -22,7 +22,7 @@ class Song
     self.name.map do |song|
         count_songs << song
         @@count += count_songs.count
-    # end
+    end
     @@count
   end
 
